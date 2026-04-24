@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package exercicio;
 
 public class Pedido {
@@ -10,7 +7,7 @@ public class Pedido {
 
     public Pedido(int id) {
         this.id = id;
-        this.status = StatusEntrega.PENDENTE; // Status inicial
+        this.status = StatusEntrega.PENDENTE; 
     }
 
     public void setStatus(StatusEntrega novoStatus) {
